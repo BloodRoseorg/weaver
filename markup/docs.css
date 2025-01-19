@@ -1,0 +1,24 @@
+@media print {
+    .pagebreak { page-break-before: always; }
+}
+
+body {
+    font-family: Arial;
+    width: 8in;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+pre {
+    background-color: lightgray;
+    padding: 8px;
+}
+
+code {
+    background-color: lightgray;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: arial;
+    background-color: #111;
+    color: #fa0;
+    font-size: 28px;
+    margin: 0px;
+}
+
+header {
+    padding: 36px;
+    margin: auto;
+    text-align: center;
+}
+
+a   { font-size: 30px; color: #fc7; text-decoration: none; }
+b   { color: #fd9; }
+h1  { font-size: 36px; color: yellow; }
+h2  { font-size: 32px; color: yellow; }
+h3  { font-size: 30px; color: yellow; }
+footer { min-height: 160px; text-align: center; color: #fc7; padding: 64px; }
+code { color: purple; }
+
+.logo {
+    height: 200px;
+}
+
+.content {
+    max-width: 560px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white; margin: 24px;
+    font-family: monospace;
+    font-size: 32px;
+}
