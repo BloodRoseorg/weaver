@@ -1,9 +1,14 @@
-const weaver = require('./weaver.js');
+const weaver = require('weaver.js');
+weaver.router(router);
 
-function main (request, handler) {
-    console.log( `ROUTE: ${weaver.routeUri(request)}\n\tUSER: ${weaver.hashId(request)}\n\tMETHOD: ${weaver.routeMethod(request)}\n\tQUERY: ${JSON.stringify(weaver.routeQueryObject(request))}` )
-    weaver.respond(handler, { code: "200", mime: "text/html", body: "This is the default Weaver example snippet" });
+function router(request, handler)
+{
+	response = {
+		code: 200,
+		mime: "text/raw",
+		body: "Hello, world!\n"
+	};
+	weaver.respond(handler, response);
 }
 
-weaver.router(main)
-weaver.listen(8080)
+weaver.listen(8080);

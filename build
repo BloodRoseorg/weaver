@@ -1,3 +1,0 @@
-multimarkdown -s ./markup/docs.md > ./generated/docs.html
-multimarkdown -s ./markup/readme.md > ./generated/weaver.html
-cp ./markup/docs.css ./generated/docs.css
